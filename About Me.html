@@ -63,16 +63,17 @@
     Your browser does not support the audio element.
     </audio>
   </main>
+
   <section id="movies">
     <table>
  <caption>Movie Ratings</caption>
       <thead>
         <tr>
-         <th scope="col" colspan="1">Movie</th>
-         <th scope="col" colspan="1">Rating</th>
-         <th scope="col" colspan="1">Year</th>
+         <th>Movie</th>
+         <th>Rating</th>
+         <th>Year</th>
         </tr>
-      
+      </thead>
       <tbody>
         <tr>
           <td>The Odyssey</td>
@@ -82,7 +83,11 @@
         <tr>
           <td>Obsession</td>
           <td>9.5</td>
-          <td>2026</td> <td colspan="2">(This movie is a masterpiece.)</td>
+          <td>2026</td>
+        </tr>
+          <tr>
+         <td colspan="3">(Obsession is a masterpiece.)</td>
+          </tr>
         </tr>
         <tr>
           <td>Twisters</td>
@@ -97,6 +102,34 @@
    <br>
    <a href="https://www.morningbrew.com/daily/stories" target="_blank">Morning Brew</a>
    <p class="copyright">Copyright &copy; 2026 Drenusha</p>
+
+   <form>
+  <label for="fullname">Name:</label>
+  <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+
+  <label for="useremail">Email:</label>
+  <input type="email" id="useremail" name="email" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="level">Level:</label>
+  <select id="level" name="level">
+    <option value="beginner">Beginner</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="advanced">Advanced</option>
+  </select>
+
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label> 
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+
+  <button type="submit">Submit</button>
+
+</form>
+
     </footer>
 </body>
 </html>

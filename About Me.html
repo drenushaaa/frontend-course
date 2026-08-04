@@ -7,15 +7,25 @@
     <!-- This is a comment. -->
 </head>
 <body>
+ <header>
   <h1 id="main-title">Drenusha</h1>
+  <nav> <a href="#what-im-learning">What I'm Learning</a> |
+     <a href="#things-i-like">Things I Like</a> |
+     <a href="#links">Links</a> |
+  </nav>
+  </header>
+
+  <main>
    <p>I am learning <strong>frontend development</strong> because it's a good skill to have.</p>
  <hr>
+ <section id="what-im-learning">
    <h2>What I'm Learning</h2>
 <ol>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ol>
+ </section>
    <p class="about-text">This is my first real HTML.</p>
    <p class="about-text">This wasn't that <em>difficult</em>.</p>
    <img src="https://i.natgeofe.com/n/0e2905b8-76a1-431e-9bd7-2d9f65b4eb90/DXB720.jpg" alt="An orange kitty" width="300">
@@ -23,6 +33,7 @@
    <br>
    <p>My favorite color is <strong>blue</strong>.</p>
    <hr>
+   <section id="things-i-like">
    <h2>Things I Like</h2>
    <ul>
      <li>Music</li>
@@ -30,6 +41,7 @@
      <li>Gaming</li>
      <li>Abstract Art</li>
    </ul>
+   </section>
    <figure>
     <img src="images/purple-abstract-3840x2160-25022.jpg" alt="Purple Abstract Art" width="300">
    <figcaption>Example of abstract art</figcaption>
@@ -50,9 +62,41 @@
     <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
+  </main>
+  <section id="movies">
+    <h2>Movie Ratings</h2>
+    <table>
+      <thead>
+        <tr>
+         <th scope="col" colspan="0">Movie</th>
+         <th scope="col" colspan="1">Rating</th>
+         <th scope="col" colspan="1">Year</th>
+        </tr>
+      
+      <tbody>
+        <tr>
+          <td>The Odyssey</td>
+          <td>8.6</td>
+          <td>2026</td>
+        </tr>
+        <tr>
+          <td>Obsession</td>
+          <td>9.5</td>
+          <td>2026</td> <td colspan="2">(This movie is a masterpiece.)</td>
+        </tr>
+        <tr>
+          <td>Twisters</td>
+          <td>7.2</td>
+          <td>2024</td>
+        </tr>
+      </tbody>
+    </table>
     <hr>
+    <footer id="links">
    <a href="https://github.com/drenushaaa/frontend-course" target="_blank">My GitHub project</a>
    <br>
    <a href="https://www.morningbrew.com/daily/stories" target="_blank">Morning Brew</a>
+   <p class="copyright">Copyright &copy; 2026 Drenusha</p>
+    </footer>
 </body>
 </html>

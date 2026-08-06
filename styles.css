@@ -1,0 +1,16 @@
+body {
+     background-color: #0e162c;
+     font-family: georgia, serif;
+   }
+   h1 {
+     color: goldenrod;
+   }
+   h2 {
+     color: rgba(226, 188, 62, 0.925);
+   }
+   p {
+     color: #b10e0e;
+     font-size: 22px;
+     font-family: fantasy;
+     /* the text color is red, the font size is 22 pixels, and the font family is fantasy */
+   }

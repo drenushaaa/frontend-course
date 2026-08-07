@@ -1,29 +1,46 @@
 body {
   background-color: #0e162c;
   font-family: georgia, serif;
+  line-height: 1.6;
 }
 h1 {
   color: goldenrod;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-inline: 3px solid goldenrod;
+  display: block;
+  text-align: center;
+  font-size: 2.3rem;
 }
 h2 {
   color: rgba(226, 188, 62, 0.925);
   background-color: color-mix(in hsl shorter hue, #070b16 50%, transparent 50%);
 }
-p, footer {
-  color: #fdfdfd;
-  font-size: 16px;
-  /* text #fdfdfd, size 16px */
-}
 
 nav a {
   color: rgb(255, 255, 255);  
+  text-decoration: underline;
+}
+nav a:hover {
+  color: goldenrod;
 }
 
-ol, ul, caption, td, th, h3, label, figcaption, legend {
+ol, ul, caption, td, th, h3, label, figcaption, legend, p, footer {
+  font-size: 0.9rem;
   color: #fdfdfd;
 }
 
 .tagline {
-  font-size: 22px;
+  font-size: 1.8rem;
   background-color: color-mix(in hsl shorter hue, #070b16 50%, transparent 50%);
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+
+}
+#about {
+  min-height: 100vh;   /* the About section fills one full screen */
+}
+img {
+  width: 30%;          /* image = half the width of its container (the section) */
 }
